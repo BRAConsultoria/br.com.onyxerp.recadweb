@@ -8,8 +8,10 @@
         @tuliodepadua
     </author>
     <content src="index.html" />
+    
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.4.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.4.3" />
